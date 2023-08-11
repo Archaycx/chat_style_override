@@ -1,3 +1,7 @@
 root: {
   --twitch-dark-background: #282828;
 }
+
+body {
+  background-color: var(--twitch-dark-background);
+}
