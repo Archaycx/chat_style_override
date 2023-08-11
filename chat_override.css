@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323');
 
 :root {
 	--background: #0f0f23;
@@ -13,7 +13,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	font-family: 'Source Code Pro', monospace;
-	font-size: 14pt;
+	font-size: 10pt;
 	color: var(--text);
 	background-color: var(--background);
 }
@@ -56,7 +56,6 @@ body {
 /* part of a message block with the sender of the message */
 .twitch-chat-sender {
 	color: var(--twitch-sender-color, var(--link));
-	font-size: 115%;
 }
 
 [data-twitch-sender-roles*='subscriber'] .twitch-chat-sender::after {
