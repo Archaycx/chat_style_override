@@ -15,7 +15,7 @@ body {
 	font-family: 'VT323', monospace;
 	font-size: 10pt;
 	color: var(--text);
-	background-color: var(--background);
+	background-color: #282828;
 }
 
 /* the entire list of messages */
