@@ -56,6 +56,12 @@ body {
 /* part of a message block with the sender of the message */
 .twitch-chat-sender {
 	color: var(--twitch-sender-color, var(--link));
+	display: inline;
+	margin-right: 1rem;
+}
+
+.twitch-chat-sender::after {
+    content: ':'
 }
 
 [data-twitch-sender-roles*='subscriber'] .twitch-chat-sender::after {
