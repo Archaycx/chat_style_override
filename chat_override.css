@@ -58,6 +58,7 @@ body {
 	color: var(--twitch-sender-color, var(--link));
 	display: inline;
 	margin-right: 1rem;
+	padding-right: 1rem;
 }
 
 .twitch-chat-sender::after {
